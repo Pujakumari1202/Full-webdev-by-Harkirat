@@ -44,8 +44,25 @@ function isAnagram(str1,str2){
     }else 
         return false;
 
-
 }
+
+
 isAnagram("aabbcc","ccbbaa");
 
 //for run this go to that folder then "node <filename>.js <-|"
+
+/*
+function isAnagram(str1,str2){
+    const sortString1=str1.toLowerCase().split("").sort().join("");
+    const sortString12=str2.toLowerCase().split("").sort().join("");
+
+    if(sortString1==sortString2){
+        return true;
+
+    }else 
+        return false;
+}
+
+isAnagram("aabbcc","ccbbaa");
+
+*/
